@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In or Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./fontawesome/css/all.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container sign-in-section">
+        <form action="#">
+          <h2>Login Your Account</h2>
+          <div class="social-media">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+            <a href="#"><i class="fa fa-star-of-david"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+          <div class="input-group">
+            <span>Or</span>
+            <span>login using your EmailId</span>
+            <input type="email" id="email1" placeholder="Enter your Email ID" />
+            <input
+              type="text"
+              id="password"
+              placeholder="Enter your password"
+            />
+            <button type="button">Sign In</button>
+          </div>
+        </form>
+      </div>
+      <div class="form-container sign-up-section">
+        <form action="#">
+          <h2>Create Your New Account</h2>
+          <div class="social-media">
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-user"></i></a>
+            <a href="#"><i class="fa fa-star-of-david"></i></a>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+          </div>
+          <div class="input-group">
+            <input
+              type="text"
+              id="username1"
+              placeholder="Enter your Username"
+            />
+            <input type="email" id="email" placeholder="Enter your Email ID" />
+            <input
+              type="text"
+              id="password1"
+              placeholder="Enter your password"
+            />
+            <button type="button">Sign Up</button>
+          </div>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay-content">
+          <p>If you don't have an account,Create &amp; login now</p>
+          <button id="overlay-btn">Sign Up</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script here -->
+    <script src="script.js"></script>
+  </body>
+</html>
